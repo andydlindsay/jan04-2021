@@ -1,0 +1,22 @@
+{
+  "name": "w02d01",
+  "version": "1.0.0",
+  "description": "Lecture notes and example code for W2D1 lecture",
+  "main": "sayHello.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "testing",
+    "npm",
+    "mocha",
+    "chai",
+    "fun"
+  ],
+  "author": "Andy Lindsay",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}

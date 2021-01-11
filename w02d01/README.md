@@ -5,12 +5,12 @@
 - [x] Making assertions
 - [x] Bringing in outside code
 - [x] Exporting our code
-- [ ] Intro to NPM: a Node package manager
-- [ ] Mocha test runner
-- [ ] Ignoring files/folders
-- [ ] Chai assertion library
-- [ ] What is TDD?
-- [ ] Practice unit testing
+- [x] Intro to NPM: a Node package manager
+- [x] Mocha test runner
+- [x] Ignoring files/folders
+- [x] Chai assertion library
+- [x] What is TDD?
+- [x] Practice unit testing
 
 ### 3 big things
 1. Intro to testing
@@ -19,8 +19,16 @@
 
 
 
+index.html.css.c.js.scss
 
+### Test-Driven Development
+* we write the tests before we write our code
+* n-driven development
+* Error
+* Component (React)
+* Resume
 
+* Red, Green, Refactor (fearless refactoring)
 
 
 
