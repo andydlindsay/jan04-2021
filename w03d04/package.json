@@ -1,0 +1,20 @@
+{
+  "name": "w03d04",
+  "version": "1.0.0",
+  "description": "### To Do - [ ] Storing passwords - [ ] Encrypted cookies - [ ] HTTP Secure (HTTPS) - [ ] REST - [ ] More HTTP methods - [ ] Method Override - [ ] Modular Routing - [ ] JSON API's - [ ] Alternatives to ExpressJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
