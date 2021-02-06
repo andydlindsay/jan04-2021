@@ -1,5 +1,5 @@
 const pg = require('pg');
-const Client = pg.Client;
+const Client = pg.Client; // pg.Pool
 
 const config = {
   user: process.env.DB_USER,

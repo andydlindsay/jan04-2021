@@ -1,5 +1,8 @@
 # BREAKOUT - Express Router
 
+GET /products
+GET /products/:id
+
 ### The Router
 * Express has a built-in router that allows us to store routes in separate files
 * We add each route to the router object and pass this object to express as middleware
