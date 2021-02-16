@@ -1,5 +1,8 @@
 import { useState } from 'react';
 
+// optional: move the event handler function declarations out of the component
+// this saves memory as the handler doesn't need to be created on every render
+// you can accomplish the same thing by using the `useCallback` hook
 const setCrustType = (event, setPizza) => {
   const newCrustType = event.target.value;
   // pizza.crustType = newCrustType;
@@ -22,8 +25,6 @@ const Pizza = () => {
     toppings: [],
     crustType: 'thin'
   });
-
-  
 
   const addTopping = () => {
     // toppings.push(newTopping); // don't do this
@@ -68,7 +69,7 @@ const Pizza = () => {
       <div>
         <input 
           value={newTopping}
-          onChange={(event) => { setNewTopping(event.target.value) }}
+          onChange={(event) => setNewTopping(event.target.value)}
         />
         <button onClick={addTopping}>Add Topping</button>
       </div>
