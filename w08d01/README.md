@@ -1,11 +1,11 @@
 # W08D01 - Unit & Integration Testing
 
 ### To Do
-- [ ] Tools for testing React
-- [ ] Coverage Reports
-- [ ] Add Features/Tests to our App
-- [ ] `debug()` and `prettyDOM()`
-- [ ] Mocking AJAX Requests and Functions
+- [x] Tools for testing React
+- [x] Coverage Reports
+- [x] Add Features/Tests to our App
+- [x] `debug()` and `prettyDOM()`
+- [x] Mocking AJAX Requests and Functions
 
 ### Tools
 * Jest

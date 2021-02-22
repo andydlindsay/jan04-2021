@@ -1,7 +1,14 @@
 import React from 'react';
 
 const Computer = (props) => {
-  const {state} = props;
+  const {state, setState} = props;
+
+  const clickHandler = () => {
+    setState((prev) => ({
+      ...prev,
+      cheating: !prev.cheating
+    }));
+  };
   
   return (
     <section className="computer">
@@ -9,6 +16,8 @@ const Computer = (props) => {
         role="img" 
         aria-label="robot"
         data-testid="robot-icon"
+        onClick={clickHandler}
+        className={state.cheating ? 'cheating' : null}
       >
         🤖
       </span>
