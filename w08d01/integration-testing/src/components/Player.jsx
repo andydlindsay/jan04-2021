@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import { announceResult } from '../helpers/helpers';
+import { announceResult, chooseRobotItem } from '../helpers/helpers';
 
 const Player = (props) => {
-  const {playerSelection, compSelection} = props.state;
+  const {playerSelection, compSelection, cheating} = props.state;
   const {setState} = props;
   const options = [
     ['Moai', '🗿'],
@@ -19,10 +19,11 @@ const Player = (props) => {
 
   useEffect(() => {
     if (playerSelection) {
-      const compSelection = 'Moai';
+      // const compSelection = 'Moai';
+      const compSelection = chooseRobotItem(playerSelection, cheating);
       setState(prevState => ({ ...prevState, compSelection }));
     }
-  }, [playerSelection, setState]);
+  }, [playerSelection, setState, cheating]);
 
   const resetState = () => {
     setState(prevState => ({

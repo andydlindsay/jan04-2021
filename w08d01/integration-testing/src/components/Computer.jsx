@@ -7,7 +7,8 @@ const Computer = (props) => {
     <section className="computer">
       <span
         role="img" 
-        aria-label="robot" 
+        aria-label="robot"
+        data-testid="robot-icon"
       >
         🤖
       </span>
