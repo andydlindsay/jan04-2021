@@ -34,8 +34,8 @@ const Player = (props) => {
     ));
   };
 
-  const registerPlayerItem = (value, updater) => {
-    updater(prevState => ({ ...prevState, playerSelection: value }));
+  const registerPlayerItem = (value) => {
+    setState(prevState => ({ ...prevState, playerSelection: value }));
   };
 
   return (
@@ -53,7 +53,7 @@ const Player = (props) => {
             const [choice, symbol] = option;
             return (
               <button
-                onClick={() => registerPlayerItem(choice, setState)}
+                onClick={() => registerPlayerItem(choice)}
                 type="button"
                 value={choice}
                 key={choice}
