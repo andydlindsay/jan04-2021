@@ -4,8 +4,8 @@
 - [x] "Rails Week" Conversation
 - [x] MVC Review
 - [x] Rails Libraries
-- [ ] Quickly build simple Rails app
-- [ ] Nested Resources
+- [x] Quickly build simple Rails app
+- [x] Nested Resources
 
 ### Convo
 * Entertaining jumping into something part way through
