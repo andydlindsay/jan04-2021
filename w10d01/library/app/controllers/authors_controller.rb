@@ -3,8 +3,4 @@ class AuthorsController < ApplicationController
     @authors = Author.all
     render json: @authors
   end
-
-  # def show
-  #   @authors = Author.all
-  # end
 end
