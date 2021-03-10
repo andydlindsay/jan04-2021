@@ -1,18 +1,18 @@
 let firstName = 'Alice';
 
-// interface IUser {
-//   username: string;
-//   password: string;
-// }
+interface ILoginUser {
+  username: string;
+  password: string;
+}
 
-// const login = (user: IUser): boolean => {
-//   return true;
-// }
+const login = (user: ILoginUser): boolean => {
+  return true;
+}
 
-// const myUser = {
-//   username: 'hello',
-//   password: 'world'
-// };
+const myUser = {
+  username: 'hello',
+  password: 'world'
+};
 
-// login(myUser);
+login(myUser);
 // login({ username: 'hello' });
