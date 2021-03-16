@@ -1,6 +1,6 @@
 # BREAKOUT - React Router
 
 ### To Do
-- [ ] React Router review
-- [ ] Nested routes
-- [ ] Programmatic Redirection
+- [x] React Router review
+- [x] Nested routes
+- [x] Programmatic Redirection
